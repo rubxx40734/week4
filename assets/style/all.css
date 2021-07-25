@@ -119,6 +119,144 @@ body {
         border: 1px solid white;
         padding: 8px 0; } }
 
+.footer {
+  background-color: #aa0601;
+  padding: 32px 0; }
+  .footer .footerTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer .footerTop .self ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 36px; }
+      .footer .footerTop .self ul li {
+        margin-right: 48px; }
+        .footer .footerTop .self ul li a {
+          display: block;
+          color: white;
+          font-size: 16px;
+          text-decoration: none;
+          padding: 5px; }
+          .footer .footerTop .self ul li a:hover {
+            color: black; }
+    .footer .footerTop .self .tel {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 16px; }
+      .footer .footerTop .self .tel a {
+        font-size: 36px;
+        color: white;
+        text-decoration: none;
+        margin-left: 22px; }
+    .footer .footerTop .self .mail {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 24px; }
+      .footer .footerTop .self .mail a {
+        font-size: 36px;
+        color: white;
+        text-decoration: none;
+        margin-left: 22px; }
+  .footer .faceBook img {
+    margin-left: 32px; }
+  .footer .footerBottom {
+    border-top: 1px solid white;
+    padding: 32px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer .footerBottom ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .footer .footerBottom ul li {
+        margin-left: 48px; }
+        .footer .footerBottom ul li a {
+          font-size: 14px;
+          color: white;
+          text-decoration: none; }
+          .footer .footerBottom ul li a:hover {
+            color: black; }
+
+@media (max-width: 992px) {
+  .footer .container {
+    max-width: 690px; }
+    .footer .container .footerTop .self ul {
+      margin-bottom: 0; }
+    .footer .container .footerTop .self li {
+      margin-right: 20px;
+      width: 70px; }
+      .footer .container .footerTop .self li a {
+        font-size: 14px; }
+    .footer .container .footerTop .tel img {
+      width: 18px;
+      height: 18px; }
+    .footer .container .footerTop .tel a {
+      font-size: 20px; }
+    .footer .container .footerTop .mail img {
+      width: 18px;
+      height: 18px; }
+    .footer .container .footerTop .mail a {
+      font-size: 20px; }
+    .footer .container .footerTop .faceBook img {
+      width: 24px;
+      height: 24px;
+      margin-left: 24px; }
+  .footerBottom ul li a {
+    display: block;
+    text-align: right;
+    width: 70px; } }
+
+@media (max-width: 767px) {
+  .footer .container {
+    max-width: 375px;
+    padding: 0 15px; }
+    .footer .container .footerTop .self ul {
+      display: none; }
+  .footerTop .faceBook {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer .container .footerBottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .footer .container .footerBottom p {
+      margin-bottom: 10px; }
+    .footer .container .footerBottom ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .footer .container .footerBottom ul li {
+        margin-left: 0;
+        margin-bottom: 10px; }
+        .footer .container .footerBottom ul li a {
+          text-align: left; } }
+
 .banner {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
   height: 840px;
